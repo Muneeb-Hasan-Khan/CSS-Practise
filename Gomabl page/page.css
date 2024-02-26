@@ -1,0 +1,78 @@
+body {
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+.startingpage {
+  padding: 40px 310px 60px 310px;
+}
+.maindiv {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 2px 4px 2px 4px;
+}
+.account {
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
+  text-align: center;
+  font-size: small;
+}
+.heading {
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
+  text-align: center;
+  font-size: small;
+}
+.logo {
+  align-items: center;
+  padding: 7px 81px 14px 81px;
+  width: 100px;
+}
+.Cancel {
+  color: rgb(55, 131, 207);
+  font-size: small;
+  text-align: center;
+}
+.words {
+  font-size: small;
+  color: rgb(55, 131, 207);
+}
+.email {
+  color: #ccc;
+  text-align: center;
+  font-size: small;
+  text-align: center;
+}
+.line {
+  margin: 27px;
+  align-items: center;
+  color: #ccc;
+}
+.button {
+  color: white;
+  background-color: rgb(55, 131, 207);
+  border: none;
+  border-radius: 25px;
+  padding: 12px 25px 12px 25px;
+  margin: 25px 0px 23px 149px;
+  font-size: small;
+}
+.sadamimg {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 32px 0px -32px 130px;
+}
+.startline {
+  padding: 5px 3px 5px 23px;
+  font-size: small;
+}
+.endline {
+  padding: 5px 3px 3px 23px;
+  font-size: small;
+  margin-bottom: 16px;
+}
+.list {
+  font-size: small;
+}
+.list{
+  margin: 2px;
+}

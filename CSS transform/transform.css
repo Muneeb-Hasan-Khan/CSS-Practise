@@ -1,0 +1,25 @@
+.maindiv {
+  border: 2px solid black;
+}
+.box {
+  height: 50px;
+  width: 50px;
+  border: 2px solid red;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(45deg);
+  transform-origin:0% 0% ;
+  /*transform: rotateX(45deg);*/
+  /*transform: rotateY(45deg);*/
+  /*transform: rotateZ(45deg);*/
+  /*transform: scale(1.8);*/
+  /*transform: scaleX(1.8);*/
+  /*transform:skew(45deg);*/
+  /*transform:skewX(45deg);*/
+  /*transform:skewY(45deg);*/
+  /*transform: translate(25px);*/
+  /*transform: translateY(-25%);*/
+  /*transform: translateY(25px);*/
+}

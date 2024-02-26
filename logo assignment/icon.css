@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+.iconsdiv {
+  color: red;
+}
+.youtube-icon:hover,
+.facebook-icon:hover,
+.instagram-icon:hover,
+.twitter-icon:hover ,
+.whatsapp-icon:hover {
+  color: white;
+  background-color: red;
+}
+.youtube-icon,
+.facebook-icon,
+.twitter-icon,
+.whatsapp-icon,
+.instagram-icon {
+  border: 3px solid red;
+  border-radius: 50%;
+  padding:15px;
+  margin: 10px;
+  font-size: 20px;
+}

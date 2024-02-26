@@ -1,0 +1,31 @@
+body {
+  display: flex;
+}
+.boxes {
+  border: 2px solid;
+  border-radius: 6px;
+  padding: 2px;
+}
+.box {
+  padding: 44px;
+  margin-bottom: 1px;
+  border: 2px black dotted;
+  display: inline-flex;
+  border-radius: 5px;
+}
+.box:nth-last-child(odd) {
+  background-color: red;
+  color: white;
+}
+.box:nth-child(8) {
+  background-color: rgb(183, 203, 53);
+  color: white;
+}
+.box:nth-child(6) {
+  background-color: rgb(67, 75, 228);
+  color: white;
+}
+.box:nth-last-child(even) {
+  background-color: rgb(52, 255, 52);
+  color: black;
+}

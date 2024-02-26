@@ -1,0 +1,33 @@
+/*.firstimage,
+.secondimage,
+.thirdimage,
+.fourthimage,
+.fifthimage {
+  display: none;
+}*/
+@media (min-width: 0px) and (max-width: 320px) {
+  .firstimage {
+    display: flex;
+    display: inline-block;
+  }
+}
+@media (min-width: 321px) and (max-width: 375px) {
+  .secondimage {
+    display: inline-block;
+  }
+}
+@media (min-width: 376px) and (max-width: 425px) {
+  .thirdimage {
+    display: inline-block;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .fourthimage {
+    display: inline-block;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .fifthimage {
+    display: inline-block;
+  }
+}

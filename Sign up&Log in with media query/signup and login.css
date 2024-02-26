@@ -1,0 +1,180 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blue;
+}
+.maindiv {
+  text-align: center;
+  width: 28%;
+}
+.logdiv {
+  border-radius: 5px;
+  border: 1px;
+  margin-bottom: 32px;
+  background-color: white;
+}
+.signdiv {
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px;
+  background-color: white;
+}
+.loginpage {
+  text-align: center;
+  padding:6px 30px 6px 30px ;
+  margin: 1px 1px 1px 1px ;
+}
+.signuppage {
+  padding: 30px;
+}
+.login {
+  text-align: center;
+}
+.signup {
+  text-align: center;
+}
+.Email {
+  padding: 7px;
+  margin: 4px;
+  width: 92%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: smaller;
+}
+.Password {
+  padding: 7px;
+  margin: 3px;
+  border: 1px solid #ccc;
+  width: 92%;
+  border-radius: 5px;
+  font-size: smaller;
+}
+.confirmpassword {
+  width: 92%;
+  padding: 4px 0px 4px 0px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: smaller;
+}
+.password {
+  width: 92%;
+  padding: 4px 0px 4px 6px;
+  border: none;
+  border-radius: 5px;
+  font-size: smaller;
+  margin: 5px;
+}
+.picon {
+  font-size: x-small;
+  margin: 7px;
+}
+.forgot {
+  text-align: center;
+  font-size: x-small;
+  margin: 10px 2px 10px 4px;
+  color: blue;
+}
+.color {
+  font-size: smaller;
+  color: blue;
+}
+.account {
+  font-size: x-small;
+  padding: 10px 16px 10px 16px;
+}
+.icon {
+  border: 1px solid white;
+  color: rgb(67, 125, 224);
+}
+.passwordbar {
+  display: flex;
+  align-items: center;
+  width: 99%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px 0px 5px 5px;
+}
+.Passwordbar {
+  display: flex;
+  align-items: center;
+  width: 99%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 6px 0px 6px 3px;
+}
+.fbbutton {
+  display: flex;
+  background-color: #3b5998;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 84%;
+  padding: 7px 0px 7px 12px;
+  margin: 10px 0px 10px 19px;
+  font-size: smaller;
+  align-items: center;
+}
+.fbdiv {
+  padding: 3px 0px 3px 9px;
+  font-size: smaller;
+}
+.Gbutton {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  width: 84%;
+  padding: 7px 0px 7px 12px;
+  margin: 10px 0px 10px 19px;
+  font-size: smaller;
+}
+.gdiv {
+  font-size: smaller;
+  padding: 3px 0px 3px 20px;
+}
+.fbbutton .icon,
+.Gbutton .gicon {
+  padding: 0px 4px 0px 4px;
+  border-radius: 35px;
+  background-color: white;
+}
+.or {
+  padding: 7px 0px 7px 0px;
+  margin: 4px 25px 4px 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.OR {
+  margin: 4px;
+}
+.or::before,
+.or::after {
+  content: "";
+  flex: 1;
+  border-top: 1px solid #000;
+}
+.Logbutton {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 5px 82px 5px 82px;
+  border-radius: 5px;
+}
+
+.Signbutton {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 6px 75px 6px 73px;
+  border-radius: 5px;
+  margin: 5px;
+}
+@media (min-width: 768px) {
+  .loginpage .signuppage {
+    flex-direction: column;
+  }
+  .maindiv {
+    display: flex;
+  }
+}

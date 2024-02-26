@@ -1,0 +1,45 @@
+.navbarsection{
+  border-bottom: 20px solid white;
+  padding: 47px;
+  background-color: #744d18;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+h3{
+  margin: 0;
+  padding-bottom: 10px;
+}
+.title {
+  font-style: italic;
+}
+.picturesection{
+  background-color: rgba(228, 200, 107, 0.958);
+  border-bottom: 20px solid white;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+.list {
+  display: flex;
+  color: yellow;
+  justify-content: center;
+  align-items: baseline;
+}
+span {
+  padding: 20px;
+  text-decoration: none;
+  margin: 20px;
+}
+.paragraphsection {
+  background-color: rgba(228, 200, 107, 0.958);
+  padding: 44px;
+  border-bottom: 20px solid white;
+  color: white;
+  text-align: center;
+}
+.footer {
+  background-color: #744d18;
+  padding: 48px;
+  color: black;
+}

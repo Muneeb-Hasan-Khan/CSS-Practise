@@ -1,0 +1,25 @@
+.boxone {
+  background-color: green;
+}
+.boxtwo {
+  background-color: blue;
+  margin-left: 100px;
+}
+.boxthree {
+  background-color: yellow;
+  margin-left: 200px;
+}
+.boxfour {
+  background-color: purple;
+  margin-left: 300px;
+}
+.boxone,
+.boxtwo,
+.boxthree,
+.boxfour {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

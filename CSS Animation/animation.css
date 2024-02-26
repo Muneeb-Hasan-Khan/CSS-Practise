@@ -1,0 +1,40 @@
+.maindiv {
+  background-color: yellowgreen;
+  width: 90vw;
+  height: 80vh;
+}
+.box {
+  background-color: darkgoldenrod;
+  width: 9vw;
+  height: 8vh;
+  /*  animation-name: myanimation;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+/*  animation-direction: reverse;
+animation-play-state: paused;*/
+  animation: myanimation 4s ease-in-out 1s infinite , animation 4s ease-in-out 1s;
+}
+@keyframes myanimation {
+  from {
+    background-color: aquamarine;
+  }
+  to {
+    background-color: blue;
+    transform: translateX(1000px);
+  }
+}
+@keyframes animation2 {
+  0% {
+    transform: rotate(150deg);
+  }
+  20% {
+    transform: rotate(250deg);
+  }
+  50% {
+    transform: rotate(350deg);
+  }
+  70% {
+    transform: rotate(450deg);
+  }
+}

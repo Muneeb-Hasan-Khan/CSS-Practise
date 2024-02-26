@@ -1,0 +1,50 @@
+.firstblock{
+  background-color: white;
+  padding:6px;
+  border: 7px solid grey;
+  border-radius: 20px;
+  width: 260px;
+}
+.maindiv{
+  display: flex;
+}
+.firstword,
+.secondword{
+  border-radius: 20px;
+  background-color: white;
+  padding: 1px ;
+  width: 52px;
+}
+.lastword{
+  color: rgb(36, 103, 129);
+  background-color: rgb(180, 217, 232);
+  border: 12px;
+  border-radius: 22px;
+  padding:9px 18px 9px 15px;
+  font-weight: bold;
+}
+.secondiv{
+  padding: 12px;
+}
+.lastbutttonhaiyeh{
+  text-align: center;
+  margin: 13px;
+}
+.img{
+  border-radius: 10px;
+  margin: 0;
+}
+.name{
+  margin: 0;
+  font-family: sans-serif;
+}
+.para{
+  color:grey;
+  margin: 0;
+}
+.body{
+  background-color: grey;
+}
+.firstcontext{
+  padding: 8px;
+}

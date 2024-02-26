@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+.boxone {
+  background-color: blue;
+  height: 88px;
+  width: 888px;
+  border: 2px solid black;
+  margin: 3px;
+  /* position: fixed; */
+  /* position: absolute;
+  top: 0px; */
+  /* position: sticky;
+  top: 0px; */
+}
+.boxtwo {
+  background-color: yellow;
+  height: 88px;
+  margin: 3px;
+  width: 888px;
+  /* position: relative;
+  top: 50px; 
+  left: 50px;
+  z-index: -1;
+  transform: translate(0);
+  filter: invert();*/
+  border: 2px solid black;
+}
+.boxthree {
+  background-color: tomato;
+  height: 88px;
+  margin: 3px;
+  width: 888px;
+  border: 2px solid black;
+}
+.boxfour {
+  background-color: chocolate;
+  height: 88px;
+  margin: 3px;
+  width: 888px;
+  border: 2px solid black;
+}
+.maindiv {
+  border: 5px solid red;
+  padding: 34px;
+  /* position: absolute;
+  top: 0px; */
+  margin: 13px;
+}
